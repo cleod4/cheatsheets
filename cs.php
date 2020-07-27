@@ -16,7 +16,11 @@
 	}
 
 	// foreach.
-	foreach ($object in $object_container) {
+	foreach ($object_container as $object) {
+	}
+
+	// foreach with key/value.
+	foreach ($object_container as $key => $value) {
 	}
 
 	// ###############
