@@ -3,14 +3,15 @@
 	// Including other files. __DIR__ is current folder location.
 	include_once (__DIR__.'/folder/file.php');
 
+	// ####################
 	// ### Control Flow ###
+	// ####################
 
 	// Function declaration.
 	function MyFunction($variable) {
-
 	}
 
-	// Typical for loop.
+	// Typical 'for' loop.
 	for ($i = 0; $i < $value; $i++) {
 	}
 
@@ -18,7 +19,9 @@
 	foreach ($object in $object_container) {
 	}
 
+	// ###############
 	// ### Strings ###
+	// ###############
 
 	// Concantenate strings.
 	$concat = "This" . "/That";
@@ -26,7 +29,9 @@
 	// Split.
 	$split = explode("/", $string);
 
+	// #############################
 	// ### Arrays and Structures ###
+	// #############################
 
 	// Side of a structure.
 	sizeof($array);
@@ -40,7 +45,9 @@
 	// Decode json to structure.
 	$decoded = json_decode($json, true);
 
+	// ##################################
 	// ### Echoing and Error Checking ###
+	// ##################################
 
 	// Printing to console, while server running.
 	error_log("Hello World");
@@ -48,7 +55,9 @@
 	// Get a text dump of a structure (such as an array or dict).
 	$dump = var_export($structure, true);
 
+	// #####################
 	// ### File handling ###
+	// #####################
 
 	// Opening a file for processing.
 	$file = fopen($filename, "w");
@@ -56,7 +65,9 @@
 	// Writing to file.
 	fwrite($file, "Content");
 
+	// #############################
 	// ### Operating System Work ###
+	// #############################
 
 	// Change the executing program's directory.
 	chdir("new_folder");
